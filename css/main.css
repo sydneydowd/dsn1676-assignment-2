@@ -54,4 +54,41 @@ background-color: #000;
   transform: rotate(4320deg);
 }
 
+.forwards {
+  text-decoration: none;
+  color: white;
+  width: 6em;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 6em;
+  background-color: green;
+  margin:1em;
+}
+
+.backwards {
+ text-decoration: none;
+  color: white;
+  width: 6em;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 6em;
+  background-color: red;
+  margin:1em;
+  
+}
+
+.backwards:hover, .forwards:hover {
+  background-color: white;
+  color:black;
+  opacity: 1;
+  transition: all .5s linear;
+}
+
+.buttons {
+  text-align: center;
+  padding: 2em;
+}
+
 
