@@ -35,6 +35,8 @@ background-color: #000;
   position: absolute;
   bottom: calc(50%);
   left: calc(50% - 7px);
+  transition: all 6s linear;
+  transform-origin: bottom center;
 }
 
 .center {
@@ -43,3 +45,13 @@ background-color: #000;
   bottom: calc(50% - 14px);
   left: calc(50% - 14px);
 }
+
+.clock-face:target .hand-hour {
+  transform: rotate(360deg);
+}
+
+.clock-face:target .hand-minute {
+  transform: rotate(4320deg);
+}
+
+
