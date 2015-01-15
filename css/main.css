@@ -34,12 +34,12 @@ background-color: #000;
   width: 14px;
   position: absolute;
   bottom: calc(50%);
-  left: calc(150px - 7px);
+  left: calc(50% - 7px);
 }
 
 .center {
   width: 28px;
   position: absolute;
-  bottom: calc(150px - 14px);
-  right: calc(150px - 14px);
+  bottom: calc(50% - 14px);
+  left: calc(50% - 14px);
 }
